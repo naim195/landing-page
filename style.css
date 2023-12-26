@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: roboto;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -25,11 +25,18 @@ img{
 
 .header, .mini-header{
     background-color: #1f2937;  
-    display: flex;  
+    display: flex; 
+    align-items: center;
+    padding: 10px 50px;
+
+}
+
+.links{
+    display: flex; 
+    align-items: center;
 }
 
 .header{
-
     justify-content: space-between;
 }
 
@@ -37,6 +44,7 @@ img{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    
 }
 
 .mini-header .title{
@@ -47,6 +55,7 @@ img{
 
 .mini-header{
     justify-content: space-between;
+    
 }
 
 .mh-body{
@@ -56,6 +65,7 @@ img{
 
 .mini-header p{
     color: #e5e7eb;
+    
 }
 
 .mini-header .button{
@@ -64,20 +74,25 @@ img{
     width: 150px;
     text-align: center;
     padding: 5px;
+    
 }
 
 .body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    margin: 50px 0;
+}
+
+.body-container, .body-title{
+    padding: 25px 50px;
 }
 
 .body-container{
     display: flex;
     gap: 32px;
-    text-align: center;
-    text-wrap: wrap;
+    text-align: center;    
 }
 
 .body-title{
@@ -94,12 +109,15 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    padding: 25px 50px;
+    font-weight: lighter;
+    margin: 50px 0;
 }
 
 .quote .q-person{
     display: flex;
     justify-content: end;
+    font-weight: bold;
 }
 
 .container{
@@ -115,10 +133,13 @@ img{
     background-color: #3882f6;    
     color: #f9faf8;
     align-items: center;
+    margin: 50px;
+    padding: 10px 20px;
 }
 
 .button-su{
     border: 3px solid #f9faf8;
+    padding: 5px 10px;
 }
 
 .footer{
@@ -128,6 +149,7 @@ img{
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 
